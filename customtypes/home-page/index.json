@@ -1,0 +1,70 @@
+{
+  "id": "home-page",
+  "label": "HomePage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "promo_section_image_tiles": {
+              "type": "SharedSlice"
+            },
+            "product_list_with_cta": {
+              "type": "SharedSlice"
+            },
+            "promo_section_fading_background_testimonials": {
+              "type": "SharedSlice"
+            },
+            "promo_section_full_width_with_overlapping_image_tiles": {
+              "type": "SharedSlice"
+            },
+            "promo_section_with_background_image": {
+              "type": "SharedSlice"
+            },
+            "category_preview_with_image_backgrounds": {
+              "type": "SharedSlice"
+            },
+            "hero_banner": {
+              "type": "SharedSlice"
+            },
+            "category_preview_with_scrolling_cards": {
+              "type": "SharedSlice"
+            },
+            "product_features_with_wide_images": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "metaTitle": {
+        "config": {
+          "label": "MetaTitle",
+          "placeholder": "This is the meta title"
+        },
+        "type": "Text"
+      },
+      "metaDescription": {
+        "config": {
+          "label": "MetaDescription",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "canonicalLink": {
+        "config": {
+          "label": "CanonicalLink",
+          "placeholder": "",
+          "select": "web",
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "product_overview_with_image_grid",
+    "items": [],
+    "primary": {
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Consectetur esse incididunt qui cupidatat exercitation cupidatat deserunt commodo aliqua magna ex do. Magna cupidatat duis mollit sit.",
+          "spans": []
+        }
+      ],
+      "highlights": [
+        {
+          "type": "paragraph",
+          "text": "Reprehenderit ipsum minim sit magna aliquip consequat consectetur ea dolore nulla magna Lorem ullamco do aliqua. Ea qui dolor nostrud nulla ex.",
+          "spans": []
+        }
+      ],
+      "details": [
+        {
+          "type": "paragraph",
+          "text": "Dolor deserunt veniam minim pariatur reprehenderit cupidatat enim mollit dolor. Labore laborum tempor sit. Ut anim esse fugiat minim cillum tempor dolor aliquip minim do duis.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

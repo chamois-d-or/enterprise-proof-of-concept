@@ -1,0 +1,50 @@
+{
+  "id": "caf72351-cc9e-45d9-a5fa-313e2dcbcacf",
+  "uid": "qui-officiis-ipsa",
+  "type": "page",
+  "data": {
+    "meta_title": "engineer back-end content",
+    "meta_description": "repurpose sexy networks",
+    "social_cards": [
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "embrace global vortals",
+        "social_card_description": "repurpose interactive partnerships"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "streamline sexy platforms",
+        "social_card_description": "envisioneer world-class supply-chains"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "productize distributed interfaces",
+        "social_card_description": "empower viral deliverables"
+      }
+    ]
+  }
+}
