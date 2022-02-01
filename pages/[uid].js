@@ -1,7 +1,7 @@
 import { Client } from "../prismicConfiguration";
 import { SliceZone } from '@prismicio/react'
 
-import { components } from '../slices/ecommerce';
+import { components } from '../slices/ecommerce/tempIndex';
 
 const Page = (props) => {
   return (
