@@ -1,0 +1,25 @@
+{
+  "id": "free_caster_slice",
+  "type": "SharedSlice",
+  "name": "FreeCasterSlice",
+  "description": "FreeCasterSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FreeCasterSlice",
+      "primary": {
+        "video": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "enterprise-proof-of-concept--lvmh_videos",
+            "label": "Video"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

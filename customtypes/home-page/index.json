@@ -36,6 +36,9 @@
             },
             "product_features_with_wide_images": {
               "type": "SharedSlice"
+            },
+            "free_caster_slice": {
+              "type": "SharedSlice"
             }
           }
         }

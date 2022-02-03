@@ -2,6 +2,7 @@
 
 export { default as CategoryPreviewWithImageBackgrounds } from './CategoryPreviewWithImageBackgrounds'
 export { default as CategoryPreviewWithScrollingCards } from './CategoryPreviewWithScrollingCards'
+export { default as FreeCasterSlice } from './FreeCasterSlice'
 export { default as HeroBanner } from './HeroBanner'
 export { default as ProductFeaturesWithWideImages } from './ProductFeaturesWithWideImages'
 export { default as ProductListWithCta } from './ProductListWithCta'
