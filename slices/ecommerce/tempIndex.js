@@ -2,6 +2,7 @@
 
 export { default as CategoryPreviewWithImageBackgrounds } from './CategoryPreviewWithImageBackgrounds'
 export { default as CategoryPreviewWithScrollingCards } from './CategoryPreviewWithScrollingCards'
+export { default as FreeCasterSlice } from './FreeCasterSlice'
 export { default as HeroBanner } from './HeroBanner'
 export { default as ProductFeaturesWithWideImages } from './ProductFeaturesWithWideImages'
 export { default as ProductListWithCta } from './ProductListWithCta'
@@ -15,6 +16,7 @@ import { default as PromoSectionWithBackgroundImage} from './PromoSectionWithBac
 import { default as CategoryPreviewWithImageBackgrounds } from './CategoryPreviewWithImageBackgrounds'
 import { default as CategoryPreviewWithScrollingCards } from './CategoryPreviewWithScrollingCards'
 import { default as HeroBanner } from './HeroBanner'
+import { default as FreeCasterSlice } from './FreeCasterSlice'
 import { default as ProductFeaturesWithWideImages } from './ProductFeaturesWithWideImages'
 import { default as ProductListWithCta } from './ProductListWithCta'
 import { default as ProductOverviewWithImageGrid } from './ProductOverviewWithImageGrid'
@@ -26,6 +28,7 @@ export const components = {
     promo_section_with_background_image: PromoSectionWithBackgroundImage,
     category_preview_with_image_backgrounds: CategoryPreviewWithImageBackgrounds,
     category_preview_with_scrolling_cards: CategoryPreviewWithScrollingCards,
+    free_caster_slice: FreeCasterSlice,
     hero_banner: HeroBanner,
     product_features_with_wide_images: ProductFeaturesWithWideImages,
     product_list_with_cta: ProductListWithCta,
