@@ -31,13 +31,13 @@
             "hero_banner": {
               "type": "SharedSlice"
             },
-            "category_preview_with_scrolling_cards": {
-              "type": "SharedSlice"
-            },
             "product_features_with_wide_images": {
               "type": "SharedSlice"
             },
             "free_caster_slice": {
+              "type": "SharedSlice"
+            },
+            "category_preview_with_scrolling_cards": {
               "type": "SharedSlice"
             }
           }

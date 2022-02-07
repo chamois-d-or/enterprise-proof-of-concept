@@ -12,12 +12,22 @@ const CategoryPreviewWithImageBackgrounds = ({ slice }) => (
 
         <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
           <div class="group aspect-w-2 aspect-h-1 rounded-lg overflow-hidden sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
-            <img src={slice.primary.imageLeft.url} alt={slice.primary.imageLeft.alt} class="object-center object-cover group-hover:opacity-75"/>
+            <picture>
+              {slice.primary.imageLeft.mobile
+                ? <source srcSet={slice.primary.imageLeft.mobile.url} media="(max-width: 640px)"/>
+                : <div/>
+              }
+              <img
+                src={slice.primary.imageLeft.url}
+                alt={slice.primary.imageLeft.alt}
+                className="object-center object-cover group-hover:opacity-75"
+              />
+            </picture>
             <div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div>
             <div class="p-6 flex items-end">
               <div>
                 <h3 class="font-semibold text-white">
-                  <a href="#">
+                  <a href={Link.url(slice.primary.leftImageLink)}>
                     <span class="absolute inset-0"></span>
                     <span >{ slice.primary.imageLeftTitle }</span>
                   </a>
@@ -34,7 +44,7 @@ const CategoryPreviewWithImageBackgrounds = ({ slice }) => (
             <div class="p-6 flex items-end sm:absolute sm:inset-0">
               <div>
                 <h3 class="font-semibold text-white">
-                  <a href="#">
+                  <a href={Link.url(slice.primary.topRightImageLink)}>
                     <span class="absolute inset-0"></span>
                     <span >{ slice.primary.imageTopRightTitle }</span>
                   </a>
@@ -51,7 +61,7 @@ const CategoryPreviewWithImageBackgrounds = ({ slice }) => (
             <div class="p-6 flex items-end sm:absolute sm:inset-0">
               <div>
                 <h3 class="font-semibold text-white">
-                  <a href="#">
+                  <a href={Link.url(slice.primary.bottomRightImageLink)}>
                     <span class="absolute inset-0"></span>
                     <span >{ slice.primary.imageBottomRightTitle }</span>
                   </a>

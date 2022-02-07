@@ -4,9 +4,6 @@ import { useState } from 'react'
 import { StarIcon } from '@heroicons/react/solid'
 import { RadioGroup } from '@headlessui/react'
 
-//test of overriding html (serializer)
-//import htmlSerializer from './../../../tools/htmlSerializer'
-
 
 const product = {
   name: 'Basic Tee 6-Pack',
@@ -297,9 +294,6 @@ export default function ProductOverviewWithImageGrid({ slice }) {
           </div>
 
           <div className="py-10 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-            {/* Description and details */}
-            {/* <RichText render={slice.primary.description} htmlSerializer={htmlSerializer} /> */}
-            {/* <RichText render={slice.primary.description} /> */}
             <div>
               <h3 className="sr-only">Description</h3>
 

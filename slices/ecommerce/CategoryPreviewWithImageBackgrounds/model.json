@@ -14,53 +14,73 @@
         "title": {
           "type": "StructuredText",
           "config": {
-            "single": "heading1",
             "label": "Title",
-            "placeholder": "This is where it all begins..."
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
           }
         },
         "linkLabel": {
           "config": {
-            "label": "linkLabel",
-            "placeholder": ""
+            "label": "Link Label",
+            "placeholder": "See more..."
           },
           "type": "Text"
         },
         "link": {
           "config": {
-            "label": "link",
-            "placeholder": "",
-            "select": "web",
-            "allowTargetBlank": false
+            "label": "Link",
+            "customtypes": [],
+            "select": "document"
           },
           "type": "Link"
         },
         "imageLeft": {
           "config": {
             "label": "Left Image",
-            "constraint": {},
-            "thumbnails": []
+            "constraint": {
+              "width": 592,
+              "height": 592
+            },
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 560,
+                "height": 280
+              }
+            ]
           },
           "type": "Image"
         },
         "imageLeftTitle": {
           "config": {
             "label": "Left Image Title",
-            "placeholder": ""
+            "placeholder": "My first Category..."
           },
           "type": "Text"
         },
         "imageLeftCta": {
           "config": {
             "label": "Left Image CTA",
-            "placeholder": ""
+            "placeholder": "My first category description..."
           },
           "type": "Text"
+        },
+        "leftImageLink": {
+          "config": {
+            "label": "Left Image Linked Document",
+            "customtypes": [],
+            "select": "document"
+          },
+          "type": "Link"
         },
         "imageTopRight": {
           "config": {
             "label": "Top Right Image",
-            "constraint": {},
+            "constraint": {
+              "width": 592,
+              "height": 280
+            },
             "thumbnails": []
           },
           "type": "Image"
@@ -68,21 +88,32 @@
         "imageTopRightTitle": {
           "config": {
             "label": "Top Right Image Title",
-            "placeholder": ""
+            "placeholder": "My second category..."
           },
           "type": "Text"
         },
         "imageTopRightCta": {
           "config": {
             "label": "Top Right Image CTA",
-            "placeholder": ""
+            "placeholder": "My second category description..."
           },
           "type": "Text"
+        },
+        "topRightImageLink": {
+          "config": {
+            "label": "Top Right Image Linked Document",
+            "customtypes": [],
+            "select": "document"
+          },
+          "type": "Link"
         },
         "imageBottomRight": {
           "config": {
             "label": "Bottom Right Image",
-            "constraint": {},
+            "constraint": {
+              "width": 592,
+              "height": 280
+            },
             "thumbnails": []
           },
           "type": "Image"
@@ -90,16 +121,24 @@
         "imageBottomRightTitle": {
           "config": {
             "label": "Bottom Right Image Title",
-            "placeholder": ""
+            "placeholder": "My third category..."
           },
           "type": "Text"
         },
         "imageBottomRightCta": {
           "config": {
             "label": "Bottom Right Image CTA",
-            "placeholder": ""
+            "placeholder": "My third category description..."
           },
           "type": "Text"
+        },
+        "bottomRightImageLink": {
+          "config": {
+            "label": "Bottom Right Image Linked Document",
+            "customtypes": [],
+            "select": "document"
+          },
+          "type": "Link"
         }
       },
       "items": {}

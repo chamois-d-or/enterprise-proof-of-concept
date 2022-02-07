@@ -23,14 +23,29 @@
         "description": {
           "type": "StructuredText",
           "config": {
-            "label": "Description",
-            "placeholder": "A nice description of your feature",
+            "label": "Call to action",
+            "placeholder": "See more...",
             "allowTargetBlank": true,
             "single": "paragraph"
           }
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "customtypes": [],
+            "select": "document"
+          },
+          "type": "Link"
         }
       },
       "items": {
+        "topProduct": {
+          "type": "IntegrationFields",
+          "config": {
+            "catalog": "demo-sm-next-ecom--products",
+            "label": "Top Product"
+          }
+        },
         "productLink": {
           "config": {
             "label": "Product Link",
@@ -40,13 +55,6 @@
             ]
           },
           "type": "Link"
-        },
-        "topProduct": {
-          "type": "IntegrationFields",
-          "config": {
-            "catalog": "enterprise-proof-of-concept--products",
-            "label": "Top Product"
-          }
         }
       }
     },
@@ -80,7 +88,7 @@
         "topProduct": {
           "type": "IntegrationFields",
           "config": {
-            "catalog": "enterprise-proof-of-concept--custom_products",
+            "catalog": "demo-sm-next-ecom--custom_products",
             "label": "Top Product"
           }
         },

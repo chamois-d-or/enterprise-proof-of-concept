@@ -1,7 +1,6 @@
 import React from 'react'
 import { RichText } from 'prismic-reactjs'
 import { Link } from 'prismic-reactjs'
-import {linkResolver} from '../../../prismicConfiguration'
 
 const PromoSectionImageTiles = ({ slice }) => (
   <section>
@@ -76,7 +75,7 @@ const PromoSectionImageTiles = ({ slice }) => (
                   </div>
                 </div>
               </div>
-              <a  href={Link.url(slice.primary.link,linkResolver)} className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700">
+              <a  href={Link.url(slice.primary.link)} className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700">
                 { slice.primary.linkLabel }
               </a>
             </div>

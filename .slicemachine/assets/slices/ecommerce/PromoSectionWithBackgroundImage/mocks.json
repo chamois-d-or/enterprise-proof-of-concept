@@ -8,31 +8,40 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Implement back-end mindshare",
+          "text": "Redefine intuitive bandwidth",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Adipisicing deserunt elit aliqua dolore sunt ad anim cupidatat aute velit in quis sint. Nulla do sint velit ex excepteur minim sunt.",
+          "text": "Magna velit consequat mollit veniam quis ipsum cupidatat aute deserunt deserunt ipsum occaecat.",
           "spans": []
         }
       ],
       "image": {
         "dimensions": {
-          "width": 900,
-          "height": 500
+          "width": 1216,
+          "height": 482
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=1216&h=482&fit=crop",
+        "mobile": {
+          "dimensions": {
+            "width": 605,
+            "height": 443
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=605&h=443&fit=crop"
+        }
       },
       "link": {
         "link_type": "Web",
         "url": "http://twitter.com"
       },
-      "linkLabel": "unleash front-end relationships"
+      "linkLabel": "optimize real-time metrics"
     }
   }
 ]
